@@ -74,3 +74,35 @@ The API returned a 404 Not Found status code.
 Passed
 
 
+
+## API_TC_003
+
+### Title
+Verify API Response Time
+
+### Request Type
+GET
+
+### Endpoint
+https://jsonplaceholder.typicode.com/users/1
+
+### Objective
+Verify that the API responds within an acceptable time.
+
+### Test Steps
+1. Open Postman
+2. Create a GET request
+3. Enter the endpoint URL
+4. Click Send
+5. Observe the response time
+
+### Expected Result
+The API should respond within 2 seconds.
+
+### Actual Result
+The API responded in 582 ms.
+
+### Status
+Passed
+
+
